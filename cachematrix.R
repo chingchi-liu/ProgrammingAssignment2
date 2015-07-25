@@ -4,8 +4,6 @@
 ## Write a short comment describing this function
 
 ## makeCacheMatrix creates and returns a list of functions
-## cacheSolve is to set or get the inverted matrix in cache
-
 makeCacheMatrix <- function(x = matrix()) {
   inv_x <- NULL
   
@@ -29,8 +27,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
-
+## cacheSolve is to set or get the inverted matrix in cache
 cacheSolve <- function(x, ...) {
   ## Return a matrix that is the inverse of 'x'
   inv_x <- x$getinverse()
